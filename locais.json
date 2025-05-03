@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Droga Raia - Avenida São Borja",
+        "endereco": "Av. São Borja, 112 - Loja 1,2, 7, 8 e 18 - Rio Branco, São Leopoldo - RS, 93040-386",
+        "lat": -29.770106627899207,
+        "lng": -51.13434569935831
+    },
+    {
+        "nome": "Droga Raia - Morro do Espelho",
+        "endereco": "Av. Wilhelm Rotermund, S/N - Lote 1 Quadra 299 - Morro do Espelho, São Leopoldo - RS, 93030-000",
+        "lat": -29.77596433530594,
+        "lng": -51.136204106100216
+    },
+    {
+        "nome": "Droga Raia - Centro",
+        "endereco": "R. Lindolfo Collor, 422 - Centro, São Leopoldo - RS, 93010-080",
+        "lat": -29.768229698955388,
+        "lng": -51.144795404282625
+    },
+    {
+        "nome": "Farmácia São João",
+        "endereco": "Av. São Borja, 983 - Jardim America, São Leopoldo - RS, 93032-200",
+        "lat": -29.776704016592404,
+        "lng": -51.1283588397917
+    }
+]

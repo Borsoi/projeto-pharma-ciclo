@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <title>PharmaCiclo - Mapa de Descarte</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./images/logo.jpg" alt="Logo PharmaCiclo" />
+        <span>PharmaCiclo</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Como Funciona</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <div class="login-button">
+        <button>Login / Cadastro</button>
+      </div>
+    </nav>
+  </header>  
+
+  <h1>Mapa de Pontos de Descarte</h1>
+  <div class="cep-busca">
+    <input type="text" id="cepInput" placeholder="Digite seu CEP">
+    <button onclick="buscarCep()">Buscar</button>
+  </div>
+
+  <div class="map-container">
+    <div id="map"></div>
+  </div>
+
+  <section class="info-section">
+    <div class="info-box">
+      <h2>♻️ Por que descartar corretamente?</h2>
+      <p><strong>Medicamentos vencidos ou em desuso</strong> podem contaminar o solo, a água e afetar toda a cadeia alimentar. O descarte correto <em>evita danos ambientais</em> e protege a saúde coletiva.</p>
+      <p>Além disso, ajuda a <strong>evitar automedicação indevida</strong> e intoxicações acidentais.</p>
+    </div>
+    <div class="info-box">
+      <h2>👨‍👩‍👧‍👦 Impacto na comunidade</h2>
+      <p>Locais de descarte confiáveis promovem a <strong>educação em saúde</strong> e fortalecem o vínculo entre farmácias e cidadãos.</p>
+      <p>Esse tipo de iniciativa promove <em>sustentabilidade urbana</em>, previne riscos à saúde e reforça o cuidado coletivo com o meio ambiente.</p>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
+
+</html>

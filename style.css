@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4fdf6;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #2e7d32;
+}
+
+.cep-busca {
+  margin: 15px 0;
+}
+
+.cep-busca input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cep-busca button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cep-busca button:hover {
+  background-color: #45a049;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#map {
+  height: 500px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 4px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  background: white;
+  transition: width 0.3s ease;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-links li a:hover {
+  color: #d0f0d0; 
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+
+.login-button button {
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button button:hover {
+  background-color: #e8f5e9;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 10%;
+  background-color: #e0f2f1;
+  flex-wrap: wrap;
+}
+
+.info-box p {
+  text-align: justify;
+  color: #333;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.info-box strong {
+  color: #2e7d32;
+}
+
+.info-box em {
+  font-style: italic;
+  color: #388e3c;
+}
+
+.info-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 300px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+  color: #388e3c;
+}
+
